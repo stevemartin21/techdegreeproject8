@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+   background: #edeff0;
+  background-image:  url(background.svg);
+ 
+
+}
+nav li .nav-icon{
+  fill:  #39add1; ;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #111;
+}
+
+nav li:hover .nav-icon{
+  fill: currentColor;
+}
+
+
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.logo{
+  height: 120px;
+  width:140px;
+  margin: 10px auto;
+}
+
+.st1{
+  display:none;
+}
+
+.logo-headline{
+    display:block;
+    color: #EAAA7F;
+    font-weight: bold;
+   }
+
+.dogTainer{
+  width:80%;
+  margin: 10px auto;
+}
+
+
+.dog{
+  width: 100%;
+  float:left;
+  margin: 0px 15px;
+}
+
+.dog p{
+  margin:0px;
+  text-align: center;
+}
+
+#sable{
+  color:#b9936c;
+}
+
+#fawn{
+  color: #dac292;
+}
+
+#red{
+ color: #4f3222;
+}
+
+#stone{
+ color: #52595e;
+}
+
+.dog-body{
+  fill: currentColor;
+}
+
+
+
+
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+@media screen and (min-width: 425px) {
+   .logo-headline{
+    display:none;
+    color: #EAAA7F;
+    font-weight: bold;
+   }
+
+    .st1{
+      display:block;
+    }
+
+}
+
+@media screen and (min-width: 560px) {
+   
+    .dog{
+  width: 20%;
+  float:left;
+  margin: 10px 15px;
+}
+}
